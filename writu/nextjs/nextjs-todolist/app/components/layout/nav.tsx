@@ -4,19 +4,17 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <nav>
-      <ul>
+      <ul className="flex p-2">
         <li>
-          <Link href="/">Home</Link>
+          <Link className="p-2 text-black hover:text-blue-500 transition-colors" href="/">Home</Link>
         </li>
         <li>
-          <Link href="/about">About</Link>
+          <Link className="p-2 text-black hover:text-blue-500 transition-colors" href="/about">About</Link>
         </li>
         <li>
-          <Link href="/blog">Blog</Link>
+          <Link className="p-2 text-black hover:text-blue-500 transition-colors" href="/blog">Blog</Link>
         </li>
       </ul>
-    </nav>
   )
 }
  
