@@ -1,6 +1,6 @@
 import { getBlogs } from "@/app/lib/blogs/blogs";
-import BlogHeader from "./blogHeader";
-import BlogEditToggle from "./blogEditToggle";
+import BlogHeader from "../../components/blog/blogHeader";
+import BlogToggleButton from "../../components/blog/blogToggleButton";
 
 export default async function BlogDetails({ params }: { params: Promise<{ id: string }> }) {
     const blogs = await getBlogs();
@@ -11,7 +11,7 @@ export default async function BlogDetails({ params }: { params: Promise<{ id: st
         <BlogHeader count={idParamsString} title={blogs[idParams]?.title}/>
         <p>{blogs[idParams]?.body}</p>
         <p className="italic mt-2 mb-4">-{blogs[idParams]?.blogger}</p>
-        <BlogEditToggle selectedBlog={blogs[idParams]} />
+        <BlogToggleButton selectedBlog={blogs[idParams]} />
       </div>
     );
   }
