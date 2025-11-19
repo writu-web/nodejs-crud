@@ -2,36 +2,15 @@
   {
     "userId": 1,
     "id": 1,
-    "title": "React js ",
-    "body": "quia et suscipit\r\nsuscipit recusandae consequuntur expedita et cum\r\nreprehenderit molestiae ut ut quas totam\r\nnostrum rerum est autem sunt rem eveniet architecto",
-    "blogger": "Ram kumar"
-  },
-  {
-    "userId": 2,
-    "id": 2,
-    "title": "Next js",
-    "body": "Next js is a framework based on Reactjs",
-    "blogger": "Kousalya Devi"
+    "title": "React JS",
+    "body": "React is javascript library to create SPA",
+    "blogger": "Ram Kumar"
   },
   {
     "userId": 3,
     "id": 3,
-    "title": "Typescript",
-    "body": "Typescript is modern version",
-    "blogger": "Laxman Rao"
-  },
-  {
-    "userId": 4,
-    "id": 4,
-    "title": "Javascript ",
-    "body": "Javascript runs in browser ",
-    "blogger": "Dashrath Raj"
-  },
-  {
-    "userId": 5,
-    "id": 5,
-    "title": "HTML",
-    "body": "HTML is Hyper Text Markup Language. it is used in client side",
-    "blogger": "Sita Rani"
+    "title": "Javascript",
+    "body": "Javacsript is a scripting language used in client side",
+    "blogger": "Laxman Kumar"
   }
 ]

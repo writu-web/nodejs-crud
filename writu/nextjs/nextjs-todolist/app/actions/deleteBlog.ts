@@ -7,10 +7,10 @@ export async function deleteBlog(formData: FormData): Promise<void> {
   console.log("Editing blog with formData:", formData);
   const blogId = formData.get("id") as string;
   const blogs = await getBlogs();
-  const index = blogs.filter(
-    (blog: { id: number }) => blog.id === Number(blogId)
+  const newBlogs = blogs.filter(
+    (blog: { id: number }) => blog.id !== Number(blogId)
   );
-  await saveBlogs(blogs.splice(index, 1));
+  await saveBlogs(newBlogs);
   revalidatePath("/blog");
   redirect("/blog");
 }
