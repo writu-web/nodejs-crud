@@ -1,9 +1,10 @@
 import Image from "next/image";
+import BannerArea from "./components/layout/banner";
 
 export default function Home() {
   return (
-    <div className="container">
-      <h1>This is home page</h1>
+    <div className="min-h-screen flex flex-col">
+      <BannerArea />
     </div>
   );
 }

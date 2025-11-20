@@ -2,8 +2,8 @@ import Nav from "./nav";
 
 export default function HeaderBar() {
     return (
-        <div className="bg-gray-200 p-2 flex items-center justify-between">
-        <h1 className="text-4xl font-bold mb-4">Todo List</h1>
+        <div className="bg-gray-100 p-2 flex justify-between items-center">
+        <h1 className="text-2xl font-bold">Todo List</h1>
         <Nav />
         </div>
     )
